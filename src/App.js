@@ -8,7 +8,7 @@ const App = () => {
       if (color === "black") {
         setColor("red");
       } else {
-        setColor("black");
+        setColor("green");
       }
     };
     
