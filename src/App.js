@@ -6,9 +6,9 @@ const App = () => {
   useEffect(() => {
     const changeColorOnClick = () => {
       if (color === "black") {
-        setColor("red");
-      } else {
         setColor("green");
+      } else {
+        setColor("black");
       }
     };
     
@@ -33,7 +33,7 @@ const App = () => {
           backgroundColor: color,
         }}
       >
-        This div can change color. Click on me!
+        This div can change color. Click!
       </div>
     </div>
   );
