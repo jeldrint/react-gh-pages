@@ -6,7 +6,7 @@ const App = () => {
   useEffect(() => {
     const changeColorOnClick = () => {
       if (color === "black") {
-        setColor("green");
+        setColor("violet");
       } else {
         setColor("black");
       }
